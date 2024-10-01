@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en" class="dark" id="moodChange">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="src/style.css">
+    <title>Creatives For You</title>
+</head>
+<body class="bg-white dark:bg-gray-900">
+    <!--header section-->
+    <header class="shadow-md bg-white dark:bg-gray-700">
+        <nav class="container mx-auto flex items-center justify-between px-6 py-2">
+            <img src="images/c4u full logo_2022 1.png" alt="" class="hover:shadow-md px-2 cursor-pointer rounded-sm dark:bg-gray-400 md:w-fit w-32">
+            <div class="dropdown-menu md:static duration-300 absolute md:min-h-fit min-h-48 flex items-center justify-center -top-full left-0 max-lg:bg-gray-700 md:w-auto w-full">
+                <ul class="flex md:flex-row flex-col justify-center items-center text-lg gap-6">
+                    <li><p  class="group relative w-max cursor-pointer">
+                        <span class="dark:text-gray-100">Home</span>
+                        <span class="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-[#F44335] group-hover:w-3/6"></span>
+                        <span class="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-[#F44335] group-hover:w-3/6"></span>
+                        </p></li>
+                    <li><p  class="group relative w-max cursor-pointer">
+                        <span class="text-[#F44335]">About Us</span>
+                        <span class="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-[#F44335] group-hover:w-3/6"></span>
+                        <span class="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-[#F44335] group-hover:w-3/6"></span>
+                        </p></li>
+                    <li><p  class="group relative w-max cursor-pointer">
+                        <span class="dark:text-gray-100">Upskills</span>
+                        <span class="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-[#F44335] group-hover:w-3/6"></span>
+                        <span class="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-[#F44335] group-hover:w-3/6"></span>
+                        </p></li>
+                    <li><p  class="group relative w-max cursor-pointer">
+                        <span class="dark:text-gray-100">Contact Us</span>
+                        <span class="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-[#F44335] group-hover:w-3/6"></span>
+                        <span class="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-[#F44335] group-hover:w-3/6"></span>
+                        </p></li>
+                </ul>
+            </div>
+            <div class="flex items-center gap-4">
+                <button class="lg:text-lg md:text-md text-sm md:px-4 px-2 md:py-2 py-1 bg-[#F44335] transition rounded-md text-white hover:-translate-y-1 hover:shadow-gray-800 shadow-md whitespace-nowrap">Register Interest</button>
+                <button id="switch" class="lg:text-2xl md:text-lg text-md hover:scale-110 dark:text-gray-100">
+                    <i class="far fa-moon"></i>
+                </button>
+                <div class="toggle-button lg:text-2xl md:text-lg text-md hover:text-[#F44335] dark:text-gray-100 md:hidden">
+                    <i class="fa-solid fa-bars"></i>
+                </div> 
+            </div>                      
+        </nav>
+    </header>
+  
+     <!--hero section-->
+     <section class="bg-no-repeat bg-center bg-cove max-w-full h-auto" style="background-image: url('images/edwin-andrade-4V1dC_eoCwg-unsplash\ 1.png');">
+            <div class="text-center text-white py-16">
+                <h4 class="md:text-lg text-md font-semibold">Discover <span class="text-[#F44335]">-</span> Interact <span class="text-[#F44335]">-</span> Engage </h4>
+                <h2 class="md:text-7xl text-4xl font-semibold text-center py-4">Connecting <span class="text-[#F44335] border-b-2 border-b-[#F44335]">talent</span> to <br> opportunity through <span class="text-[#F44335] border-b-2 border-b-[#F44335]">skills</span> </h2>
+                <p class="text-gray-200 md:text-lg text-md md:w-1/2 mx-auto py-8">We forster a skill-focussed environment enabling students to navigate their career with their self-paced learning journey and businesses to gain market-ready talent. </p>
+                <button class="md:px-8 px-5 md:py-3 py-2 bg-white text-[#F44335] lg:text-lg md:text-md text-sm font-semibold rounded-full hover:bg-[#F44335] hover:text-white transition duration-300">Ask questions</button>              
+            </div>
+            <img src="images/Wave.svg" alt="">
+     </section>
+
+     <!--empower section-->
+     <div class="container mx-auto grid lg:grid-cols-12 grid-cols-1 items-center py-12 px-8 gap-12">
+        <div class="lg:col-span-3 md:col-span-2 col-span-1">
+            <h2 class="md:text-4xl text-3xl md:text-left text-center text-gray-800 dark:text-gray-300 font-semibold leading-normal">At <span class="text-[#F44335] border-b-2 border-b-[#F44335]">C4U,</span> <br> We Empower: </h2>
+        </div>
+        <div class="lg:col-span-9 flex md:flex-row flex-col items-center gap-8">
+            <div class="bg-gray-900 dark:bg-gray-600 rounded-lg p-4 space-y-8 hover:-translate-y-2 hover:shadow-xl transition-all">
+                <div class="text-2xl text-[#F44335] w-10 h-10 bg-white flex items-center justify-center rounded-full">
+                    <a href="#"><i class="fas fa-award"></i></a>
+                </div>               
+                <h3 class="text-xl font-semibold text-white">Students</h3>
+                <p class="text-white">We help students find their way in a fast-evolving world by creating a personalised learning journey guaranteed to help stand out in a crowded job market. 
+                </p>
+            </div>          
+            <div class="bg-gray-900 dark:bg-gray-600 rounded-lg p-4 space-y-8 hover:-translate-y-2 hover:shadow-xl transition-all">
+                <div class="text-2xl text-[#F44335] w-10 h-10 bg-white flex items-center justify-center rounded-full">
+                    <a href="#"><i class="fas fa-graduation-cap"></i></a>
+                </div>               
+                <h3 class="text-xl font-semibold text-white">Universities</h3>
+                <p class="text-white">We help students find their way in a fast-evolving world by creating a personalised learning journey guaranteed to help stand out in a crowded job market. 
+                </p>
+            </div>          
+            <div class="bg-gray-900 dark:bg-gray-600 rounded-lg p-4 space-y-8 hover:-translate-y-2 hover:shadow-xl transition-all">
+                <div class="text-2xl text-[#F44335] w-10 h-10 bg-white flex items-center justify-center rounded-full">
+                    <a href="#"><i class="fas fa-user"></i></a></a>
+                </div>               
+                <h3 class="text-xl font-semibold text-white">Businesses</h3>
+                <p class="text-white">We help students find their way in a fast-evolving world by creating a personalised learning journey guaranteed to help stand out in a crowded job market. 
+                </p>
+            </div>          
+        </div>
+     </div>
+
+     <!--mission section-->
+     <div class="relative">
+        <div class="container mx-auto grid md:grid-cols-2 grid-cols-1 md:px-16 px-8 py-12 gap-16">
+            <div class="flex flex-col justify-center md:items-start items-center mx-auto">
+                <h4 class="text-2xl text-[#FC5A5A]">About us</h4>
+                <h2 class="text-4xl font-semibold text-[#2D3142] dark:text-gray-300">Our Mission </h2>
+                <p class="w-96 py-12 dark:text-gray-200 md:text-left text-center">To create a personalised  pathway for continuous learning and transferrable skills development.</p>
+                <button class="border-2 border-[#FC5A5A] md:px-4 px-3 md:py-2 py-1 md:text-lg text-md text-[#FC5A5A] rounded-full font-semibold hover:-translate-y-1 hover:shadow-lg">Find out more <span class="animate-ping"><i class="fas fa-arrow-right"></i></span> </button>
+            </div>
+            <div class="grid grid-cols-2 items-center justify-center mx-auto">
+                <div class="relative">
+                    <img src="images/priscilla-du-preez-mKJUoZPy70I-unsplash 1.png" alt="" class="shadow-2xl rounded-2xl  cursor-pointer">
+                    <img src="images/Oval (3).png" alt="" class="absolute -top-3 right-[140px] -z-10 lg:visible invisible">
+                </div>                   
+                    <div class="relative">
+                        <img src="images/naassom-azevedo-Q_Sei-TqSlc-unsplash 2.png" alt="" class="rounded-2xl shadow-2xl">
+                        <img src="images/Oval (2).png" alt="" class="absolute -bottom-3 -right-3 -z-10 lg:visible invisible">
+                    </div>              
+                <div class="flex items-center justify-center">
+                    <img src="images/fran-XxkTaY1UpZU-unsplash 1.png" alt="" class="shadow-2xl rounded-2xl hover:scale-105 transition cursor-pointer">
+                </div>
+                <div class="mt-16">
+                    <img src="images/mikael-kristenson-3aVlWP-7bg8-unsplash 1.png" alt="" class="shadow-2xl rounded-2xl hover:scale-105 transition cursor-pointer">
+                </div>
+                <div class="w-full relative mx-auto h-auto overflow-hidden rounded-lg">
+                    <img src="images/logan-isbell-F5b7_OD4IMA-unsplash 1.png" alt="" class="hover:scale-110 transition cursor-pointer">
+                </div>
+            </div>
+         </div>
+         <!--vision section-->
+         <div class="container mx-auto grid md:grid-cols-2 grid-cols-1 md:px-16 px-8 py-12 gap-16">       
+            <div class="grid grid-cols-2 items-center justify-center mx-auto">
+                <div class="relative">
+                    <img src="images/kristen-colada-adams-YI6Qaw8hHis-unsplash 2.png" alt="" class="shadow-2xl rounded-2xl cursor-pointer">
+                    <img src="images/Oval.png" alt="" class="absolute -top-3 right-36 -z-10 lg:visible invisible">
+                </div>
+                <div class="relative">
+                    <img src="images/chris-leipelt-HylhnUtMqHc-unsplash 2.png" alt="" class="rounded-2xl shadow-2xl scale-100">
+                    <img src="images/Oval (1).png" alt="" class="absolute -bottom-3 -right-3 -z-10 lg:visible invisible">
+                </div>                                     
+                <div class="flex items-center justify-center">
+                    <img src="images/chris-spiegl-CSJPm2POibQ-unsplash 2.png" alt="" class="shadow-2xl rounded-2xl hover:scale-110 transition cursor-pointer">
+                </div>
+                <div class="mt-16">
+                    <img src="images/nirmal-rajendharkumar-88s0zVMLSqc-unsplash 1.png" alt="" class="shadow-2xl rounded-2xl hover:rotate-3 transition cursor-pointer">
+                </div>
+                <div>
+                    <img src="images/simone-hutsch-LmN3BoY3xgw-unsplash 2.png" alt="" class="hover:scale-105 transition cursor-pointer">
+                </div>
+            </div>
+            <div class="flex flex-col justify-center md:items-start items-center mx-auto">
+                <h4 class="text-2xl text-[#FC5A5A]">About us</h4>
+                <h2 class="text-4xl font-semibold text-[#2D3142] dark:text-gray-300">Our Vision</h2>
+                <p class="w-96 py-12 dark:text-gray-200 md:text-left text-center">To have a globally recognised strategic bridge between education and the job market</p>
+                <button class="border-2 border-[#FC5A5A] md:px-4 px-2 md:py-2 py-1 md:text-lg text-md text-[#FC5A5A] rounded-full font-semibold hover:translate-y-1 hover:shadow-lg">Contact us <span class="animate-ping"><i class="fas fa-arrow-right"></i></span> </button>
+            </div>
+         </div>
+         <img src="images/Line and circle content.png" alt="" class="absolute top-0 left-1/2 h-full lg:visible invisible">
+     </div>
+
+     <!--discover section-->
+     <div class="bg-white dark:bg-gray-400">
+        <div class="container mx-auto grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 py-16">
+            <div class="px-16">
+                <div class="flex items-start justify-between">
+                    <img src="images/Group 199.png" alt="">
+                    <img src="images/1.png" alt="" class="animate-pulse">
+                </div>
+                <h3 class="text-2xl text-gray-800 dark:text-white font-semibold">Discover</h3>
+                <p class="text-md max-w-96 dark:text-white">We uncover students unique skills to stand out in a crowded job market</p>
+            </div>
+            <div class="px-16">
+                <div class="flex items-start justify-between">
+                    <img src="images/Group 199 (1).png" alt="">
+                    <img src="images/2.png" alt="" class="animate-pulse">
+                </div>
+                <h3 class="text-2xl text-gray-800 dark:text-white font-semibold">Interact</h3>
+                <p class="text-md max-w-96 dark:text-white">We uncover students unique skills to stand out in a crowded job market</p>
+            </div>
+            <div class="px-16">
+                <div class="flex items-start justify-between">
+                    <img src="images/Group 199 (2).png" alt="">
+                    <img src="images/3.png" alt="" class="animate-pulse">
+                </div>
+                <h3 class="text-2xl text-gray-800 dark:text-white font-semibold">Engage</h3>
+                <p class="text-md max-w-96 dark:text-white">We uncover students unique skills to stand out in a crowded job market</p>
+            </div>           
+        </div>       
+     </div>
+
+     <!--team section-->
+     <div class="bg-no-repeat bg-center bg-cover" style="background-image: url('images/Rectangle\ 32.png');">
+        <div class="container mx-auto py-16">            
+            <div class="flex md:items-end justify-center md:w-1/2 w-full relative">
+                <h2 class="md:text-5xl text-3xl font-medium dark:text-gray-200 leading-relaxed relative">The Creative Team <br> behind <span class="text-[#F44335] border-b-2 border-[#F44335]">the door</span></h2>
+                <img src="images/Group.png" alt="" class="absolute md:left-96 md:-bottom-10 md:visible hidden">
+            </div>
+            <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 py-16">
+                <div class="bg-white dark:bg-gray-600 relative flex flex-col items-center space-y-4 py-12 sm:mx-0 mx-8 rounded-lg shadow-2xl hover:scale-105 transition duration-300">
+                    <img src="images/image 3.png" alt="">
+                    <h3 class="md:text-3xl text-2xl text-gray-800 dark:text-gray-50 font-semibold">Ekta Mahajan</h3>
+                    <p class="text-gray-400 dark:text-gray-100">Founder & C.E.O</p>
+                    <div class="flex items-center justify-center gap-4">
+                        <div class="mini_icon">
+                            <a href="#"><i class="fas fa-phone"></i></a>
+                        </div>
+                        <div class="mini_icon">
+                            <a href="#"><i class="fa-solid fa-envelope-open"></i></a>
+                        </div>
+                        <div class="mini_icon">
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>                                               
+                    </div>
+                    <img src="images/Group 47269.png" alt="" class="absolute -bottom-24 -left-8 -z-10 lg:visible invisible">
+                </div>
+                <div class="bg-white dark:bg-gray-600 flex flex-col items-center space-y-4 sm:mx-0 mx-8 py-12 rounded-lg shadow-2xl hover:scale-105 transition duration-300">
+                    <img src="images/image 4.png" alt="">
+                    <h3 class="md:text-3xl text-2xl text-gray-800 dark:text-gray-50 font-semibold">Toby Potter-Drake</h3>
+                    <p class="text-gray-400 dark:text-gray-100">Product Manager Associate</p>
+                    <div class="flex items-center justify-center gap-4">
+                        <div class="mini_icon">
+                            <a href="#"><i class="fas fa-phone"></i></a>
+                        </div>
+                        <div class="mini_icon">
+                            <a href="#"><i class="fa-solid fa-envelope-open"></i></a>
+                        </div>
+                        <div class="mini_icon">
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>                                               
+                    </div>
+                </div>
+                <div class="bg-white dark:bg-gray-600 flex flex-col items-center space-y-4 sm:mx-0 mx-8 py-12 rounded-lg shadow-2xl hover:scale-105 transition duration-300">
+                    <img src="images/image 2.png" alt="">
+                    <h3 class="md:text-3xl text-2xl text-gray-800 dark:text-gray-50 font-semibold">Ross Davies</h3>
+                    <p class="text-gray-400 dark:text-gray-100">Corporate Growth Associate</p>
+                    <div class="flex items-center justify-center gap-4">
+                        <div class="mini_icon">
+                            <a href="#"><i class="fas fa-phone"></i></a>
+                        </div>
+                        <div class="mini_icon">
+                            <a href="#"><i class="fa-solid fa-envelope-open"></i></a>
+                        </div>
+                        <div class="mini_icon">
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>                                               
+                    </div>
+                </div>
+                <div class="bg-white dark:bg-gray-600 relative flex flex-col items-center space-y-4 sm:mx-0 mx-8 py-12 rounded-lg shadow-2xl hover:scale-105 transition duration-300">
+                    <img src="images/image 1.png" alt="">
+                    <h3 class="md:text-3xl text-2xl text-gray-800 dark:text-gray-50 font-semibold">Leo crozier </h3>
+                    <p class="text-gray-400 dark:text-gray-100">Software Developer</p>
+                    <div class="flex items-center justify-center gap-4">
+                        <div class="mini_icon">
+                            <a href="#"><i class="fas fa-phone"></i></a>
+                        </div>
+                        <div class="mini_icon">
+                            <a href="#"><i class="fa-solid fa-envelope-open"></i></a>
+                        </div>
+                        <div class="mini_icon">
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>                                               
+                    </div>
+                    <img src="images/Group 47270.png" alt="" class="absolute -top-28 -right-8 -z-10 lg:visible invisible">
+                </div> 
+            </div>
+        </div>
+     </div>
+
+     <!--footer section-->
+     <footer class="pt-16 pb-12">
+        <div class="container mx-auto grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
+            <div class="col-span-1 space-y-6">
+                <img src="images/c4u full logo_2022 1.png" alt="" class="w-30 md:mx-0 mx-auto dark:bg-gray-400 rounded-sm p-1">
+                <p class="text-gray-500 dark:text-gray-200 md:text-left text-center"> 
+                    Level39 <br>
+                    One Canada Square, <br>
+                    Canary Wharf, <br>
+                    London, <br>
+                    E14 5AB
+                </p>
+            </div>
+            <div class="grid md:grid-cols-2 grid-cols-1 md:col-span-2 col-span-1 gap-8">
+                <div class="grid md:grid-cols-2 grid-cols-1 gap-8">
+                    <div class="md:text-left text-center">
+                        <h3 class="text-gray-800 dark:text-gray-300 text-lg font-semibold">Home</h3>
+                        <div class="mt-4 space-y-4">
+                            <a href="#" class="text-gray-600 dark:text-gray-200 block">Collaborations</a>
+                            <a href="#" class="text-gray-600 dark:text-gray-200 block">Statistics</a>
+                            <a href="#" class="text-gray-600 dark:text-gray-200 block">How It Works</a>
+                            <a href="#" class="text-gray-600 dark:text-gray-200 block">Testimonials</a>
+                        </div>                       
+                    </div>
+                    <div class="md:text-left text-center">
+                        <h3 class="text-gray-800 dark:text-gray-300 text-lg font-semibold">About Us</h3>
+                        <div class="mt-4 space-y-4">
+                            <a href="#" class="text-gray-600 dark:text-gray-200 block">Who We Are</a>
+                            <a href="#" class="text-gray-600 dark:text-gray-200 block">Mission statement</a>
+                            <a href="#" class="text-gray-600 dark:text-gray-200 block">Our Vision</a>
+                            <a href="#" class="text-gray-600 dark:text-gray-200 block">The  Team</a>
+                        </div>                       
+                    </div>
+                </div>
+                <div class="grid md:grid-cols-2 grid-cols-1 gap-8">
+                    <div class="md:text-left text-center">
+                        <h3 class="text-gray-800 dark:text-gray-300 text-lg font-semibold">Upskill</h3>
+                        <div class="mt-4 space-y-4">
+                            <a href="#" class="text-gray-600 dark:text-gray-200 block">It Support</a>
+                            <a href="#" class="text-gray-600 dark:text-gray-200 block">It Support</a>
+                            <a href="#" class="text-gray-600 dark:text-gray-200 block">Data Analysts</a>
+                            <a href="#" class="text-gray-600 dark:text-gray-200 block">Data Analysts</a>
+                        </div>                       
+                    </div>
+                    <div class="md:text-left text-center">
+                        <h3 class="text-gray-800 dark:text-gray-300 text-lg font-semibold">Contact Us</h3>
+                        <div class="mt-4 space-y-4">
+                            <a href="#" class="text-gray-600 dark:text-gray-200 block">Your message</a>
+                            <a href="#" class="text-gray-600 dark:text-gray-200 block">Email</a>
+                            <a href="#" class="text-gray-600 dark:text-gray-200 block">Phone number</a>
+                            <a href="#" class="text-gray-600 dark:text-gray-200 block">Linkedin</a>
+                        </div>                       
+                    </div>
+                </div>
+            </div>
+        </div>
+     </footer>
+
+     <!--copyright scetion-->
+     <hr>
+     <div class="text-center py-3">
+        <p class="text-gray-500 dark:text-gray-200 md:text-lg text-md"><span>&COPY;</span> Copyright 2024 Creatives For You LTD</p>
+     </div>
+
+
+ 
+
+
+<script>
+    const mood = document.getElementById("moodChange");
+    document.getElementById("switch").addEventListener('click', function() {
+        mood.classList.toggle('dark');
+    });
+</script>
+     
+     
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    const toggleBtn = document.querySelector('.toggle-button');
+    const dropdown = document.querySelector('.dropdown-menu');
+
+    toggleBtn.addEventListener('click', function () {
+        dropdown.classList.toggle('top-16');
+    });
+</script>
+
+
+
+
+
+</body>
+</html>

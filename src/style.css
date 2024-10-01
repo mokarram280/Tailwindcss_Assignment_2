@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .mini_icon {
+        @apply flex items-center justify-center w-8 h-8 text-[#00FF84] bg-green-100 rounded-full hover:scale-105 hover:shadow-md transition;
+    }
+}
